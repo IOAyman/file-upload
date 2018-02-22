@@ -1,0 +1,17 @@
+{
+  "name": "file-upload",
+  "version": "0.1.0",
+  "private": true,
+  "main": "go.js",
+  "scripts": {
+    "start": "nodemon go"
+  },
+  "author": "Ayman Nedjmeddine",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "multer": "^1.3.0",
+    "nodemon": "^1.15.1"
+  }
+}
