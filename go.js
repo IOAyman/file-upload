@@ -24,6 +24,7 @@ app.all('*', (req, res) => res.redirect('/'))
 app.use((err, req, res, next) => {
   console.error(err)
   res.end('woops!')
+  next()
 })
 
 app.on('error', console.error)
